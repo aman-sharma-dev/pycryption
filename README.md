@@ -1,4 +1,6 @@
-# 🔐 PyCryption
+# 🔐 PyCryption 
+
+**Current Version:** 1.0.0
 
 A powerful **file, text, and folder encryption tool** with a **Flask-powered web UI**, a **Python GUI**, and a **command-line interface (CLI)**.
 Supports key management, password-based encryption, and multiple encryption methods.
