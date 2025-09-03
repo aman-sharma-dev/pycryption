@@ -1,0 +1,8 @@
+flask
+click
+cryptography
+Flask-WTF
+python-dotenv
+pyinstaller
+ttkthemes
+pytest

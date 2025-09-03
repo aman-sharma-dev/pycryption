@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Home - Encryptor
+{% endblock %}
+
+{% block content %}
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to Encryptor</h1>
+        <p class="lead">Your one-stop solution for text and file encryption.</p>
+        <hr class="my-4">
+        <p>Choose an option below to get started.</p>
+        <a class="btn btn-primary btn-lg" href="{{ url_for('web_ui.text_encryption') }}" role="button">Encrypt/Decrypt Text</a>
+        <a class="btn btn-secondary btn-lg" href="{{ url_for('web_ui.file_encryption') }}" role="button">Encrypt/Decrypt File</a>
+    </div>
+{% endblock %}
